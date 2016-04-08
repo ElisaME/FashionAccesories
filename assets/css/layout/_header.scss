@@ -1,0 +1,49 @@
+.navbar-brand, .nav1{
+	font-size: $doce ;
+}
+.menu2{
+	background-color: #fff;
+	padding: 2% 0;
+	.horario{
+		@include caja1;
+	}
+	input{
+		width: 70% !important;
+	}
+}
+.nav2{
+	.carrito{
+		width:100px;
+		color: #BDBDBD;
+		background-color: #363636;
+		padding: 2%;
+		i{
+			float: left;
+			padding:4%;
+		}
+		.compras{
+			font-size: $doce;
+		}
+	}
+	li>a{
+		color: black !important;
+		font-weight: bold;
+		&:hover{
+			background-color:$rosa !important;
+			color: #fff !important;
+		}
+	}
+}
+.mis-compras{
+	img{
+		width: 100px;
+	}
+	.cuenta{
+		float: right;
+	}
+}
+
+
+
+
+

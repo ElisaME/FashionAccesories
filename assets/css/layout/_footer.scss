@@ -1,0 +1,46 @@
+#footer{
+	font-size: 12px;
+	padding: 2%;
+	background-color:$gris-claro;
+	.sub{
+	font-weight:bold;
+	}
+	ul{
+		list-style:none;
+		padding-left: 0;
+	}
+	.redes{
+		margin-top: 2%;
+		.square{
+			background-color: #fff;
+			padding:5%;
+			margin: 2%;
+		}
+		i{
+			color: $gris;
+		}
+	}
+	.about{
+		p{
+			margin-bottom: 10%;
+		}
+		.circle{
+			background-color: #fff;
+			padding:5%;
+			margin: 2%;
+			border-radius: 100%;
+		}
+		i{
+			color: $gris;
+		}
+	}
+}
+.footer2{
+		background-color: $gris;
+		padding-top: 1%;
+		color: $gris-claro;
+		font-size: 12px;
+		span{
+			color: $rosa;
+		}
+	}

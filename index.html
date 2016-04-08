@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fashion accesories</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<!-- HEADER -->
+	<header>
+		<!-- Header parte 1 -->
+		<nav class="navbar-default nav1">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+					<div class="navbar-brand">Default Welcome Msg!</div>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/flag1.png" alt=""> Language <span class="caret"></span></a>
+  							<ul class="dropdown-menu"></ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-usd"></i> Currency <span class="caret"></span></a>
+  							<ul class="dropdown-menu"></ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> My account <span class="caret"></span></a>
+  							<ul class="dropdown-menu"></ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Header parte 2 -->
+		<div class="container menu2">
+			<div class="row">
+				<!-- Horario -->
+				<div class="col-md-4 col-xs-12">
+					<div class="horario center-block">
+						<i class="icono fa fa-2x fa-clock-o"></i>
+						<p>OPENING TIME</p>
+						<p class="texto-sm">9:00 AM - 10:00 PM</p>
+					</div>
+				</div>
+				<!-- Logotipo -->
+				<div class="col-md-4 col-xs-12 text-center">
+					<img src="assets/images/logo.png" alt="">
+				</div>
+				<!-- Search -->
+				<div class="col-md-4 col-xs-12 search">
+					<input type="text" class=" pull-right form-control" placeholder="Search">
+				</div>
+			</div>
+		</div>
+		<!-- Header parte 3 -->
+		<nav class="navbar-default nav2">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+				<!-- Carrito de compras FALTA ARREGLAR -->
+				<ul class="nav navbar-nav navbar-right nav3">
+					<li class="dropdown">
+						<div class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<div class="carrito text-center">
+								<i class="icono fa fa-shopping-cart"></i>
+								<p>My Cart</p>
+								<div class="compras">2 item(s) - $244</div>
+							</div>
+						</div>
+						<ul class="dropdown-menu mis-compras">
+							<li>
+								<div class="cuenta">
+									<p>Aliquam Consequat</p>
+									<p>1 x $500  x</p>
+								</div>
+								<img src="assets/images/a1.jpg" alt="">
+							</li>
+						</ul>	
+					</li>
+				</ul>
+				<!-- Opcion 1 para carrito de compras -->
+				<!-- <div class="nav pull-right">
+					<div class="carrito text-center">
+						<i class="icono fa fa-shopping-cart"></i>
+						<p>My Cart</p>
+						<div class="compras">2 item(s) - $244</div>
+					</div>
+				</div> -->
+			</div>
+		</nav>
+	</header>
+	<!-- Slider -->
+	<section id="slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					  </ol>
+
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active">
+					      <img src="assets/images/slider1.jpg" alt="Chania">
+					      <div class="carousel-caption">
+					        <h3 class="slide-desc">AUTUMN/WINTER LOOKBOOK</h3>
+					        <p>T- 2016 COLLECTION -</p>
+					      </div>
+					    </div>
+
+					    <div class="item">
+					      <img src="assets/images/slider2.jpg" alt="Chania">
+					      	<div class="carousel-caption">
+						        <h3 class="slide-desc">AUTUMN/WINTER LOOKBOOK</h3>
+						        <p>T- 2016 COLLECTION -</p>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- New arrivals -->
+	<section id="arrivals">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-xs-12">
+					<img class="banner1" src="assets/images/banner1.jpg" alt="">
+				</div>
+				<div class="col-md-7 col-xs-12">
+					<img class="img-responsive" src="assets/images/banner2.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Menu de productos1 -->
+	<section class="separador">
+		<hr>
+		<hr>
+		<ul class="nav nav-tabs menu-productos1" role="tablist">
+			<li class="active"><a href="#"><i class="fa fa-angle-left"></i>    CLOTHING</a></li>
+			<li class="active"><a href="#">EQUIPMENTS</a></li>
+			<li class="active"><a href="#">JEWERLY    <i class="fa fa-angle-right"></i></a></li>
+		</ul>
+	</section>
+	<!-- Productos 1 -->
+	<section id="productos">
+		<!-- Productos -->
+		<div class="container">
+			<div class="row">
+				<!-- Producto 1 -->
+				<div class="col-md-3 col-xs-6">
+					<div class="thumbnail">
+    					<img src="assets/images/a1.jpg" alt="...">
+    					<div class="new">NEW</div>
+    					<div class="caption text-center">
+        					<p class="name-product">Deliver Wilde</p>
+        					<div class="star">
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star-o"></i>
+        						<i class="fa fa-star-o"></i>
+        					</div>
+        					<p class="price">$218</p>
+      					</div>
+    				</div>
+				</div>
+				<!-- Producto 2 -->
+				<div class="col-md-3 col-xs-6">
+					<div class="thumbnail">
+    					<img src="assets/images/b1.jpg" alt="...">
+    					<div class="sale">SALE</div>
+    					<div class="new">NEW</div>
+    					<div class="caption text-center">
+        					<p class="name-product">Deliver Wilde</p>
+        					<div class="star">
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star-o"></i>
+        						<i class="fa fa-star-o"></i>
+        					</div>
+        					<p class="price"><span class="oferta">$240</span>  $218</p>
+      					</div>
+    				</div>
+				</div>
+				<!-- Producto 3 -->
+				<div class="col-md-3 col-xs-6">
+					<div class="thumbnail">
+    					<img src="assets/images/c1.jpg" alt="...">
+    					<div class="sale">SALE</div>
+    					<div class="caption text-center">
+        					<p class="name-product">Deliver Wilde</p>
+        					<div class="star">
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star-o"></i>
+        						<i class="fa fa-star-o"></i>
+        					</div>
+        					<p class="price"><span class="oferta">$240</span>  $218</p>
+      					</div>
+    				</div>
+				</div>
+				<!-- Producto 4 -->
+				<div class="col-md-3 col-xs-6">
+					<div class="thumbnail">
+    					<img src="assets/images/d1.jpg" alt="...">
+    					<div class="new">NEW</div>
+    					<div class="caption text-center">
+        					<p class="name-product">Deliver Wilde</p>
+        					<div class="star">
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star"></i>
+        						<i class="fa fa-star-o"></i>
+        						<i class="fa fa-star-o"></i>
+        					</div>
+        					<p class="price">$218</p>
+      					</div>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Banner Marcas -->
+	<section id="marcas">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="assets/images/client1.jpg" alt="">
+					<img src="assets/images/client2.jpg" alt="">
+					<img src="assets/images/client3.jpg" alt="">
+					<img src="assets/images/client4.jpg" alt="">
+					<img src="assets/images/client5.jpg" alt="">
+					<img src="assets/images/client6.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Menu de productos 2 -->
+	<section class="separador">
+		<hr>
+		<hr>
+		<ul class="nav nav-tabs menu-productos1" role="tablist">
+			<li class="active"><a href="#"><i class="fa fa-angle-left"></i>    CLOTHING</a></li>
+			<li class="active"><a href="#">EQUIPMENTS</a></li>
+			<li class="active"><a href="#">JEWERLY    <i class="fa fa-angle-right"></i></a></li>
+		</ul>
+	</section>
+	<!-- Productos Clothing -->
+	<section id="productos2">
+		<div class="container">
+			<!-- Linea1 -->
+			<div class="row">
+				<!-- Producto 1 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/a2.jpg" alt="...">
+		    					<div class="new">NEW</div>
+		    					<div class="sale">SALE</div>
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+				<!-- Producto 2 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/b2.jpg" alt="...">
+		    					<div class="new">NEW</div>
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+				<!-- Producto 3 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/g2.jpg" alt="...">
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+			</div>
+			<!-- Linea2-->
+			<div class="row">
+				<!-- Producto 4 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/c2.jpg" alt="...">
+		    					<div class="new">NEW</div>
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+				<!-- Producto 5 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/c2.jpg" alt="...">
+		    					<div class="sale">SALE</div>
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+				<!-- Producto 6 -->
+				<div class="col-md-4 col-xs-4">
+					<div class="box-producto">
+						<div class="row">
+							<div class="col-md-6">
+		    					<img src="assets/images/e1.jpg" alt="...">
+		    					<div class="new">NEW</div>
+		    				</div>	
+	    					<div class="col-md-6 desc">
+	        					<p class="name-product">Deliver Wilde</p>
+	        					<div class="star">
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star"></i>
+	        						<i class="fa fa-star-o"></i>
+	        						<i class="fa fa-star-o"></i>
+	        					</div>
+	        					<p class="price"><span class="oferta">$240</span>$218</p>
+	        					<button class="btn"><i class="icono fa fa-shopping-cart"></i> Add to Cart</button>
+	      					</div>
+	    				</div>
+    				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Menu de productos 2 -->
+	<section class="separador">
+		<hr>
+		<hr>
+		<ul class="nav nav-tabs menu-blog" role="tablist">
+			<li class="active"><a href="#">BLOG</a></li>
+		</ul>
+	</section>
+	<!-- Blog -->
+	<section id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-12 post">
+					<img src="assets/images/blog1.jpg" alt="">
+					<p class="title">THE SAMPLE HEADING TITLE</p>
+					<p class="fecha">27/11/2015</p>
+					<p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem delectus temporibus nisi, eum eius velit fugit ratione quibusdam magni</p>
+					<p class="more">Read more...</p>
+				</div>
+				<div class="col-md-3 col-xs-12 post">
+					<img src="assets/images/blog2.jpg" alt="">
+					<p class="title">THE SAMPLE HEADING TITLE</p>
+					<p class="fecha">27/11/2015</p>
+					<p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni esse quas aspernatur praesentium dolorem debitis et maxime officia, ipsum o</p>
+					<p class="more">Read more...</p>
+				</div>
+				<div class="col-md-3 col-xs-12 post">
+					<img src="assets/images/blog1.jpg" alt="">
+					<p class="title">THE SAMPLE HEADING TITLE</p>
+					<p class="fecha">27/11/2015</p>
+					<p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quisquam dolore voluptatem blanditiis, nulla quasi, modi asperiores, o</p>
+					<p class="more">Read more...</p>	
+				</div>
+				<div class="col-md-3 col-xs-12 post">
+					<img src="assets/images/blog3.jpg" alt="">
+					<p class="title">THE SAMPLE HEADING TITLE</p>
+					<p class="fecha">27/11/2015</p>
+					<p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus unde quia odit ullam eveniet deleniti nobis conseq</p>
+					<p class="more">Read more...</p>/div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Servicios -->
+	<section id="servicios">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<div class="caja">
+						<i class="icono fa-2x fa fa-phone"></i>
+						<p>ORDER ONLINE NOW</p>
+						<p class="texto-sm">Call Us (0123) 456-789</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="caja">
+						<i class="icono fa-2x fa fa-plane"></i>
+						<p>FREE WORLDWIDE SHIPPING</p>
+						<p class="texto-sm">On Order OVer $100</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="caja">
+						<i class="icono fa-2x fa fa-money"></i>
+						<p>30 DAYS MONEY BACK 100%</p>
+						<p class="texto-sm">Satisfaction Guarantee</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<p class="sub">ACCESORIES</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci reiciendis molestias obcaecati voluptatibus, eaque possimus tempore aspernatur repudiandae nesciunt laboriosam corporis unde autem dolorem, mollitia suscipit facere maxime quis itaque.</p>
+					<div class="redes">
+						<span class="square">
+						  <i class="fa fa-facebook"></i>
+						</span>
+						<span class="square">
+						  <i class="fa fa-twitter"></i>
+						</span>
+						<span class="square">
+						  <i class="fa fa-rss"></i>
+						</span>
+						<span class="square">
+						  <i class="fa fa-skype"></i>
+						</span>
+						<span class="square">
+						  <i class="fa fa-dribbble"></i>
+						</span>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<p class="sub">MY ACCOUNT</p>
+					<ul>
+						<li><i class="fa fa-caret-right"></i>My Account</li>
+						<li><i class="fa fa-caret-right"></i>Order History</li>
+						<li><i class="fa fa-caret-right"></i>Wish List</li>
+						<li><i class="fa fa-caret-right"></i>Newsletter</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="sub">INFORMATION</p>
+					<ul>
+						<li><i class="fa fa-caret-right"></i>About Us</li>
+						<li><i class="fa fa-caret-right"></i>Delivery Information</li>
+						<li><i class="fa fa-caret-right"></i>Privacy Policy</li>
+						<li><i class="fa fa-caret-right"></i>Terms & Conditions</li>
+					</ul>
+				</div>
+				<div class="col-md-2">
+					<p class="sub">EXTRAS</p>
+					<ul>
+						<li><i class="fa fa-caret-right"></i>Brands</li>
+						<li><i class="fa fa-caret-right"></i>Gift Vouchers</li>
+						<li><i class="fa fa-caret-right"></i>Afiliates</li>
+						<li><i class="fa fa-caret-right"></i>Specials</li>
+					</ul>
+				</div>
+				<div class="col-md-3 about">
+					<p class="sub">ABOUT US</p>
+					<p>
+					<span class="circle">
+						<i class="fa fa-map-marker"></i>
+					</span>
+					8901 Marmora Road, Glasgow D04 89 GR, New York</p>
+					<p>
+					<span class="circle">
+						<i class="fa fa-phone"></i>
+					</span>
+					(0123)123-123123</p>
+					<p>
+					<span class="circle">
+						<i class="fa fa-envelope"></i>
+					</span>
+					admin@bootexperts.com</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section class="footer2">
+		<div class="container">
+			<div class="col-md-6">
+				<p>Copyright 2015 <span>BootExperts</span> All rights reserved</p>
+			</div>
+			<div class="col-md-6">
+				<img class="pull-right" src="assets/images/payment.png" alt="">
+			</div>
+		</div>
+	</section>
+	<!-- SCRIPTS -->
+	<script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>

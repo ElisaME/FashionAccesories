@@ -1,0 +1,146 @@
+*{
+	font-family: Montserrat;
+}
+#slider{
+	.carousel-caption{
+		bottom: 100px !important;
+	}
+	.slide-desc{
+		border:1px solid #fff;
+		padding: 2%;
+	}
+}
+#arrivals{
+	padding-top:2%;
+	padding-bottom: 2%;
+	.banner1{
+		width: contain;
+	}
+}
+#productos{
+	@include margenes;
+	.borde{
+		border-top: 2px double $gris-claro;
+		height: .5px;
+	}
+	.thumbnail{
+		img{
+			position: relative;
+		}
+		
+	}
+	.new{
+		@include btn ($rosa);
+		@include tag (16%);
+	}
+	.sale{
+		@include btn ($gris);
+		@include tag (6%);
+	}
+}
+.name-product{
+			font-size: $doce;
+		}
+.star{
+	i{
+		color: $gris;
+	}
+}
+.price{
+	color: $rosa;
+	font-size: 18px;
+	margin-top: 2%;
+	.oferta{
+		color: $gris-claro;
+		text-decoration: line-through;
+	}
+}
+
+#marcas{
+	@include margenes;
+	background-image: url("../../assets/images/client-bg.jpg");
+	height: 300px;
+	img{
+		width: 14%;
+	    margin: 1%;
+	    margin-top: 9%;
+	}
+}
+#productos2{
+	@include margenes;
+	.box-producto{
+		background-color: #fff;
+	    border: 1px solid #ddd;
+	    border-radius: 4px;
+	    padding: 4px;
+	    margin-top: 4%;
+	    margin-bottom: 4%;
+	    .desc{
+	    	margin-top: 2%;
+	    }
+	    img{
+	    	width: 100%;
+	    }
+	    .price{
+	    	font-size: 14px;
+	    }
+	    .btn{
+	    	@include btn ($gris);
+	    	font-size: $doce;
+	    }
+	}
+	.new{
+		@include btn ($rosa);
+		@include tag (23%);
+	}
+	.sale{
+		@include btn ($gris);
+		@include tag (4%);
+	}
+}
+#blog{
+	@include margenes;
+	.post{
+		@include post;
+	}
+}
+#servicios{
+	@include margenes;
+	.caja{
+		@include caja1;
+		border:1px solid $gris-claro;
+		padding: 2%;
+		color: $gris;
+	}
+}
+.separador {
+    position: relative;
+    hr{
+    	margin-bottom: -2%;
+    }
+    .menu-productos1{
+    	font-size: 18px;
+	    position: absolute;
+	    top: -26px;
+	    left: 35%;
+	    border-bottom: none !important;
+	}
+	.menu-blog{
+    	font-size: 18px;
+	    position: absolute;
+	    top: -26px;
+	    left: 47%;
+	    border-bottom: none !important;
+	}
+	.nav-tabs>li.active>a{
+		border: none!important;
+		font-weight: bold;
+		&:hover{
+			color:black !important;
+			font-weight: bold;
+		}
+	}
+	.nav-tabs>li>a{
+		color: $gris-claro !important;
+	}
+}

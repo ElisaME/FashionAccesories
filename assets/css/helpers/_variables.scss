@@ -1,0 +1,53 @@
+$doce:12px;
+$diez:10px;
+$rosa:#FF7572;
+$gris-claro:#e7e7e7;
+$gris:#444444;
+
+@mixin caja1{
+	p{
+	margin-bottom:0;
+	font-size: 18px;
+	}
+	i{
+		padding-right: 4%;
+		padding-top: 1%;
+	}
+	.texto-sm{
+		font-size: $diez;
+	}
+	.icono{
+	float: left;
+	}
+}
+@mixin btn ($color){
+	background-color: $color;
+	color: #fff;
+	padding: 2%;
+	border-radius: 0;
+}
+@mixin tag ($top){
+	position: absolute;
+	top:$top;
+	font-size: $diez;
+}
+@mixin post{
+	img{
+		width: 100%;
+	}
+	.title{
+		font-weight: bold;
+		font-size: $doce;
+	}
+	.fecha,.contenido,.more{
+		font-size: $diez;
+		color: $gris;
+	}
+	.more{
+		color: red;
+	}
+}
+@mixin margenes{
+	margin-top: 3%;
+	margin-bottom: 3%;
+}

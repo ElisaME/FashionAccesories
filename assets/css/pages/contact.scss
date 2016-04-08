@@ -1,0 +1,45 @@
+*{
+	font-family: Montserrat;
+}
+#contact{
+	background-image: url("../../assets/images/teclado.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 400px;
+	.filter{
+		height: 400px;width: 100%;
+		z-index: -1;
+		background-color: rgba(0,0,0,0.6);
+	}
+	.texto-contacto{
+	    color: #fff;
+	    background-color: $rosa;
+	    display: block;
+	    font-size: 4em;
+	    font-weight: bold;
+	    margin-top: 30%;
+	}
+	.datos-contacto{
+		color: #fff;
+		vertical-align: middle;
+		margin-top: 25%;
+	}
+}
+.mapa{
+	padding: 5%;
+	margin-top: 5%;
+}
+.formulario{
+	padding: 5%;
+	.form-control, .form-group{
+		margin-bottom: 2%;
+	}
+	.form-control{
+		background-color: $gris-claro;
+		color: $gris;
+	}
+	button{
+		@include btn ($gris);
+	}
+}
